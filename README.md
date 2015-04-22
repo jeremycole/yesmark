@@ -10,7 +10,7 @@ YesMark™ only requires one thing, `yes`. It works like this:
 
 You can achieve a faster spawning of YesMark™ test threads with a simple shell for loop:
 
-    `for i in {1..16}; do yes "SELECT 1 LIMIT 0;" | mysql > /dev/null & ; done`
+    for i in {1..16}; do yes "SELECT 1 LIMIT 0;" | mysql > /dev/null & ; done
 
 ## How can I tell what my performance is?
 
