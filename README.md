@@ -2,9 +2,15 @@
 
 YesMark™ only requires one thing, `yes`. It works like this:
 
-   `yes "select 1 limit 0;" | mysql >/dev/null &`
+   `yes "SELECT 1 LIMIT 0;" | mysql >/dev/null &`
 
 # Frequently Asked Questions
+
+## How can I quickly run 16 threads of YesMark™?
+
+You can achieve a faster spawning of YesMark™ test threads with a simple shell for loop:
+
+    for i in {1..16}; do yes "SELECT 1 LIMIT 0;" | mysql > /dev/null & ; done
 
 ## How can I tell what my performance is?
 
