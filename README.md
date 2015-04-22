@@ -2,7 +2,7 @@
 
 YesMark™ only requires one thing, `yes`. It works like this:
 
-   `yes "SELECT 1 LIMIT 0;" | mysql >/dev/null &`
+    yes "SELECT 1 LIMIT 0;" | mysql >/dev/null &
 
 # Frequently Asked Questions
 
