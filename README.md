@@ -2,7 +2,7 @@
 
 YesMark™ only requires one thing, `yes`. It works like this:
 
-    yes "DO 1;" | mysql >/dev/null &
+    yes "DO 0;" | mysql >/dev/null &
 
 # Frequently Asked Questions
 
@@ -10,7 +10,7 @@ YesMark™ only requires one thing, `yes`. It works like this:
 
 You can achieve a faster spawning of YesMark™ test threads with a simple shell for loop:
 
-    for i in {1..16}; do yes "DO 1;" | mysql > /dev/null & done
+    for i in {1..16}; do yes "DO 0;" | mysql > /dev/null & done
 
 ## How can I tell what my performance is?
 
