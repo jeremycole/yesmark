@@ -19,4 +19,4 @@ You can achieve a faster spawning of YesMark™ test threads with a simple shell
 
 ## Why YesMark™?
 
-Because.
+Yes.
